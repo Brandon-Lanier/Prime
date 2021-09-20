@@ -12,27 +12,30 @@ body {
 h1{
   color: black;
   font-size: 36px;
-  font-family: verdana, arial, sans-serif;
+  font-family: times, arial, sans-serif;
   text-align: center;
   font-weight: bold;
 }
 
 h2{
   text-align: center;
-  font-family: times new roman;
-  font-weight: 
+  font-family: verdana, arial, sans-serif;
 }
 
 h3{
   text-decoration: underline;
-  font-family: arial;
+  font-family: verdana, arial, sans-serif;
 }
 
+h4{
+  font-family: verdana, arial, sans-serif;
+}
 
 .header{
   padding-left: auto;
   margin-left: auto;
-  line-height: 90%;
+  line-height: 50%;
+  text-align: center;
 }
 
 .intro{
@@ -41,10 +44,13 @@ h3{
 }
 
 .experience{
+  display: block;
+  margin: 10px 10px 10px 10px;
   padding: 0px 10px 10px 10px;
   line-height: 1.2;
   border-radius: 10px;
   background-color: floralwhite;
+  text-align: left;
 }
 
 .education{
